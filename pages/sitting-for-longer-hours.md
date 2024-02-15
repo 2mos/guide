@@ -4,7 +4,7 @@ Sitting for longer hours might seem like a daunting task especially when you're 
 
 However it isn't that difficult. Here's my *suggestion*
 
-- Use the pomodoro mode on ypt or use pomofocus.io to track pomodoro sessions
+Use the pomodoro mode on ypt or use pomofocus.io to track pomodoro sessions
 
 <img src="https://imgur.com/oY0eTUk.jpg" alt="drawing" width="200"/>
 Pomodoro mode ypt
