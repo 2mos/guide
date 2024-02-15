@@ -1,8 +1,19 @@
 import os
 import json
+import shutil
 
 relative_path = 'pages'
 current_dir = os.path.dirname(os.path.abspath(__file__))
+
+sub_dirs = [d for d in os.listdir(current_dir) if os.path.isdir(os.path.join(current_dir, d))]
+for sub_dir in sub_dirs:
+    if sub_dir not in ("node_modules", "pages", ".git"):
+            full_path = os.path.join(current_dir, sub_dir)
+            try:
+                shutil.rmtree(full_path)
+            except OSError:
+                print(f"Error deleting: {full_path}")
+
 pages_dir = os.path.join(current_dir, relative_path)
 template_path = os.path.join(current_dir, 'template.html')
 md_files = list()
