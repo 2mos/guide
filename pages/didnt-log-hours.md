@@ -1,7 +1,7 @@
 # I forgot to hit record, what do I do ? 
-Happens to the best of us, in this case, take care to not repeat it because it causes me unncessary trouble. 
+Happens to the best of us, in this case, take care to not repeat it because it causes unneccesary trouble. 
 
-**Inform me in the chat** so that I can add an x hour exception to your name in my journal and not hand out an undeserved warning OR at worst, remove you by mistake. 
+**Don't forget to inform in the chat** so that I can add an x hour exception to your name in my journal and not hand out an undeserved warning OR at worst, remove you by mistake. 
 
 For your own record, you can follow these steps to add study hours but it's only visible to you and not me.
 
@@ -23,6 +23,6 @@ Start recording then click on the three dots on the top right corner. Select Fac
 
 Now the screen turns off when you place the phone face down. We'll have to live with this hack till ypt devs fix it rip.
 
-**Don't forget to inform me in the chat** so that I can add an x hour exception to your name in my journal and not hand out an undeserved warning OR at worst, remove you by mistake. 
+**Don't forget to inform in the chat** so that I can add an x hour exception to your name in my journal and not hand out an undeserved warning OR at worst, remove you by mistake. 
 
 You can also follow the steps in the previous section to add study hours
