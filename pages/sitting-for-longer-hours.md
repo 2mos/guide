@@ -14,7 +14,9 @@ Pomofocus
 
 The default of 25 mins focus and 5 mins break seems wayy too short and usually disturbs my flow. If you're like me, and don't know what to set as the duration of your pomodoro - follow this. 
 
-Count the number of hours that you need to sit for a lecture at your coaching before a break is given. Also count the duration of the break. Use that as the duration of one pomodoro. 
+Count the number of hours that you need to sit in lecture at your coaching before a break is given. Also count the duration of the break. Use that as the duration of one pomodoro. 
+
+This works because you're already used to forcefully sitting for that long in class. In following the same routine at home, you're going to be able to better concentrate at class too. 
 
 For me it's 1.5 hours with 15 minutes of break, so I set that as the length of a single pomodoro session. 
 

@@ -11,6 +11,7 @@ module.exports = {
             "--tw-prose-headings": theme("colors.white"),
             "--tw-prose-pre-bg": theme("colors.stone.800"),
             "--tw-prose-links": theme("colors.blue[600]"),
+            "--tw-prose-bold": theme("colors.cyan[300]"),
             backgroundColor: theme("colors.stone.900"),
           },
         },
