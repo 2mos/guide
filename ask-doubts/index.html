@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ask-doubts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../output.css" rel="stylesheet" />
+    <meta name="referrer" content="no-referrer" />
+  </head>
+
+  <body class="prose prose-neutral dark:prose-neutral-dark mx-auto p-4">
+    <div id="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      const colorSchemeQuery = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      );
+
+      if (colorSchemeQuery.matches) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+
+      const colorSchemeChange = (e) => {
+        if (e.matches) {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+        }
+      };
+
+      colorSchemeQuery.addEventListener("change", colorSchemeChange);
+
+      fetch("../pages/ask-doubts.md")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content").innerHTML = marked.parse(data);
+        });
+    </script>
+  </body>
+</html>
